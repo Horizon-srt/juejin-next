@@ -1,5 +1,12 @@
+
+import TopNav from './TopNav';
+
 const Layout = () => {
-  return <div>Layout</div>;
+  return (
+    <div>
+      <TopNav></TopNav>
+    </div>
+  );
 }
 
 export default Layout;
