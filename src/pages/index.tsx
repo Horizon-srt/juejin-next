@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import RightSideBar from '@/components/RightSideBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +19,6 @@ export default function Home() {
         <h1>
         这是掘金主页！！！
         </h1>
-        <RightSideBar />
       </main>
 
     </>
